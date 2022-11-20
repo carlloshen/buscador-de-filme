@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    /*background-image: url("./imagens/back.jpg");*/
+    width: 55vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1px solid gray;
+    box-shadow: 3px 5px 11px #282827;
+}
+
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-top: 5rem;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    background-color: #F0FFF0;
+}
+
+.cabecalho>h2 {
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho>img {
+    margin-left: 1rem;
+    width: auto;
+    height: 30px;
+}
+
+#formulario1 {
+    width: 400rem;
+}
+
+.nome-filme-head,
+.nome-filme,
+.ano-filme {
+    border: 0;
+    border-bottom: 3px solid black;
+    font-size: 14px;
+    outline: 0;
+}
+
+.nome-filme-head {
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ano-filme {
+    width: 10%;
+    margin-left: 20px;
+}
+
+#titulo{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#poster-filme {
+    width: 20vw;
+    height: 60vh;
+}
+
+#informacoes {
+    width: 25vw;
+    height: 60vh;
+}
+
+#titulo-filme {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#informacoes-conteudo:nth-child(2) {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+#informacoes-conteudo:nth-child(2),
+#informacoes-conteudo:nth-child(3),
+#informacoes-conteudo:nth-child(4) {
+    display: block;
+}
+
+#informacoes-conteudo>p {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#botao {
+    margin-left: 0.5rem;
+    margin-top: 10px;
+    width: 4rem;
+    height: 3vh;
+    border: 0;
+    border-radius: 10px;
+    background-color: #282827;
+    color: white;
+}
+
+#botao-cancel {
+    width: 5rem;
+    height: 3vh;
+    border: 0;
+    border-radius: 10px;
+    background-color: #282827;
+    color: white;
+}
+
+#botao-cancel {
+    margin-left: 2rem;
+}
+
+#advanced {
+    width: 7rem;
+    height: 3vh;
+    border: 0;
+    border-radius: 10px;
+    background-color: #282827;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+
+#genero {
+    display: inline;
+}
+
+#genero:nth-child(1) {
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 54.85vw;
+    height: 16vh;
+    position: fixed;
+    bottom: 0;
+}
+
+#itens-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: #F0FFF0;
+}
+
+#itens-footer>a {
+    color: gray;
+}
+
+.github:hover {
+    color: #171515;
+}
+
+.linkedin:hover {
+    color: #0e76a8;
+}
+
+.instagram:hover {
+    /*https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background*/
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#direitos-autorais {
+    position: fixed;
+    bottom: 0;
+}
+
+#poster-filme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    border: 0.1px solid gray;
+}
